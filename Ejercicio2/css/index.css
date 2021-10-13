@@ -1,0 +1,31 @@
+/*Rubén Torres*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div{
+}
+
+#div1{
+    background-color: aqua;
+    margin: 100px 100px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    /*padding: 40px;*/
+    /*  Si se le añade padding, la caja pequeña sigue estando
+        en la misma posición y la caja se contenedora se hace 
+        más grande, hacia abajo y hacia la derecha.
+    */
+}
+
+#div2{
+    background-color: brown;
+    top: 10px;
+    left: 10px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
