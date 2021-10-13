@@ -1,0 +1,45 @@
+/*** Rubén Torres ***/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*** CAJAS ***/
+section{
+	background-color: red;
+	width: 1280px;
+	margin: 0 auto;
+	padding: 5px;
+	overflow: hidden;
+}
+
+div:first-child{
+	background-color: chartreuse;
+}
+
+div:last-child{
+	background-color: deeppink;
+}
+
+div{
+	width: 630px;
+	float: left;
+	margin: 5px;
+}
+
+div:first-child h1{
+	background-color: aqua;
+}
+
+div:last-child h1{
+	background-color: gold;
+}
+
+div:first-child p{
+	background-color: lightpink;
+}
+
+div:last-child p{
+	background-color: orangered;
+}
