@@ -6,6 +6,7 @@
 body{
     width: 1200px;
     min-height: 747px;
+    margin: auto;
 }
 
 h1{
@@ -25,11 +26,16 @@ nav{
     background-color: rgb(255, 205, 112);   
 }
 
+main{
+    overflow: hidden;
+}
+
 aside{
     width: 210px;
     min-height: 420px;  
     padding: 60px 30px 40px 50px;
-    background-color: rgb(110, 168, 255); 
+    background-color: rgb(110, 168, 255);
+    float: left;
 }
 
 section{
@@ -37,6 +43,7 @@ section{
     min-height: 420px;  
     padding: 60px 50px 40px;   
     background-color: rgb(139, 255, 139); 
+    float: left;
 }
 
 footer{
