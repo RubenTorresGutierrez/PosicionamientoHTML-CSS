@@ -16,13 +16,13 @@ h1{
 /*** LAYOUT ***/
 header{
     width: 1200px;
-    height: 70px;
+    min-height: 70px;
     background-color: rgb(255, 255, 167);  
 }
 
 nav{
     width: 1200px;
-    height: 70px;  
+    min-height: 70px;  
     background-color: rgb(255, 205, 112);   
 }
 
@@ -48,6 +48,6 @@ section{
 
 footer{
     width: 1200px;
-    height: 87px;   
+    min-height: 87px;   
     background-color: rgb(255, 123, 123);  
 }

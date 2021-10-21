@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    width: 1360px;
+    margin: auto;
+}
+
+body{
+    width: 88.23529411764706%;
+    font-size: 16px;
+    min-height: 46.6875em;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+/*** LAYOUT ***/
+header{
+    width: 100%;
+    min-height: 4.375em;
+    background-color: rgb(255, 255, 167);  
+}
+
+nav{
+    width: 100%;
+    min-height: 4.375em;  
+    background-color: rgb(255, 205, 112);   
+}
+
+main{
+    overflow: hidden;
+}
+
+aside{
+    width: 17.5%;
+    min-height: 26.25em;  
+    padding: 5% 2.5% 3.333333333333333% 4.166666666666667%;
+    background-color: rgb(110, 168, 255);
+    float: left;
+}
+
+section{
+    width: 67.5%;
+    min-height: 26.25em;  
+    padding: 5% 4.166666666666667% 3.333333333333333%;   
+    background-color: rgb(139, 255, 139); 
+    float: left;
+}
+
+footer{
+    width: 100%;
+    min-height: 5.4375em;
+    background-color: rgb(255, 123, 123);  
+}
